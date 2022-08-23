@@ -45,7 +45,7 @@
     color: #D6DBDF;
     font-size: 30px;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    text-align: center;
 }
 
 .profession {
@@ -62,12 +62,12 @@
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: .2rem;
 }
 
 .contact-info ul li,
 .references ul li {
-    padding: .4rem 0;
+    padding: .3rem 0;
     color: #eeeeee;
 }
 
@@ -78,20 +78,14 @@
     color: #eeeeee;
 }
 
-.skills ul {
-    padding-top: 1.5rem;
-}
-.skills ul li p {
-    padding: .4rem 0;
-    color: #eeeeee;
-}
-
 .right-section-contents {
-    padding: 2rem 2rem;
+    padding: 4rem 4rem;
 }
 
 .right-title {
     color: #eeeeee;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .gap {
@@ -99,7 +93,12 @@
 }
 .about-me-contents {
     font-size: 18px;
-    color: #eeeeee;
+    color: #c4c4c4;
+}
+
+.skills-contents {
+    font-size: 18px;
+    color: #c4c4c4;
 }
 
 .experience-contents,
@@ -108,7 +107,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    color: #c4c4c4;
 }
 
 .exp-company-name,
